@@ -2,6 +2,21 @@
 
 Servo servo;
 
+#define ECHO 4 
+#define TRIG 5 
+#define SERVO 3 
+
+#define POSICAO_MINIMA 0 
+#define POSICAO_MAXIMA 90 
+
+#define DELAY_POSICAO_MINIMA 0 
+#define DELAY_POSICAO_MAXIMA 5 
+
+#define DELAY_FECHAR_LIXEIRA 2000 
+#define DELAY_ABRIR_LIXEIRA 500 
+
+#define DISTANCIA_MINIMA_ABRIR 20
+
 unsigned long tempo;
 double distancia;
 
